@@ -1,4 +1,5 @@
 const express = require('express');
+const passportGoogle = require('./config/passport-google-oauth2-strategy');
 const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const flash = require('connect-flash');

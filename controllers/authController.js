@@ -311,6 +311,9 @@ exports.gotoReset = (req, res) => {
     }
 }
 
+exports.createSession = (req, res) => {
+    return res.redirect('/dashboard');
+}
 
 exports.resetPassword = (req, res) => {
     var { password, password2 } = req.body;
